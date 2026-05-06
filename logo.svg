@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="20" fill="#0d1117"/>
+  
+  <!-- Signal circle -->
+  <circle cx="100" cy="100" r="60" stroke="#00ff9f" stroke-width="3" fill="none"/>
+  <circle cx="100" cy="100" r="40" stroke="#00ff9f" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Chart line -->
+  <polyline points="50,130 80,100 110,120 150,70"
+    fill="none"
+    stroke="#00ff9f"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+  
+  <!-- Dot -->
+  <circle cx="150" cy="70" r="5" fill="#00ff9f"/>
+</svg>
